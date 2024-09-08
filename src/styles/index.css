@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 
-*{
+* {
     margin: 0;
     padding: 0;
     font: inherit;
@@ -23,22 +23,22 @@
     --primary-color:#ff2525;
     --secondary-color: #82E3FF;
 
-    --ff-sans:"Montserrat", system-ui, sans-serif;
-    --fw-base:400;
-    --fw-md:500;
-    --fw-bold:800;
+    --ff-sans: "Montserrat", system-ui, sans-serif;
+    --fw-base: 400;
+    --fw-md: 500;
+    --fw-bold: 800;
 
-    --fs-sm:0.875rem;
-    --fs-base:1rem;
-    --fs-lg:1.5rem;
-    --fs-xl:1.75rem;
-    --fs-2xl:2.25rem;
-    
-    --py-sm:0.875rem;
-    --py-base:1rem;
-    --py-lg:1.5rem;
-    --py-xl:1.75rem;
-    --py-2xl:2.25rem;
+    --fs-sm: 0.875rem;
+    --fs-base: 1rem;
+    --fs-lg: 1.25rem;
+    --fs-xl: 1.75rem;
+    --fs-2xl: 2.25rem;
+
+    --py-sm: 0.875rem;
+    --py-base: 1rem;
+    --py-lg: 1.5rem;
+    --py-xl: 3rem;
+    --px-lg: 1.5rem;
 }
 
 html {
@@ -51,7 +51,7 @@ html {
     scroll-behavior: smooth;
 }
 
-body{
+body {
     background-color: var(--bg-color);
     overflow-x: hidden;
 }
@@ -63,15 +63,15 @@ h1, h2, h3 {
     letter-spacing: -0.04em;
 }
 
-h1{
+h1 {
     font-size: var(--fs-2xl);
 }
 
-h2{
+h2 {
     font-size: var(--fs-xl);
 }
 
-h3{
+h3 {
     font-size: var(--fs-lg);
 }
 
@@ -95,7 +95,7 @@ ul {
     list-style: none;
 }
 
-@media (width > 1280px){
+@media (width >= 1280px) {
     :root {
         --fs-lg: 2rem;
         --fs-xl: 2.625rem;
