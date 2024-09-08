@@ -1,5 +1,7 @@
 import { useState } from "react";
 import Logo from "../assets/logo.svg"
+import Close from "../assets/close.svg";
+import Menu from "../assets/menu.svg";
 import "../styles/header.css";
 import "../styles/utility.css";
 import '../styles/index.css'
@@ -61,13 +63,13 @@ export default function Header() {
                                     </li>
                                 </ul>
                                 <span onClick={() => setShowMobileMenu(!showMobileMenu)} className="btn-wrapper">
-                                    {/* <img src={Close} alt="ícone fechar menu" width={24} height={24} /> */}
+                                    <img src={Close} alt="ícone fechar menu" width={24} height={24} />
                                 </span>
                             </div>
                         </div>
                         :
                         <span onClick={() => setShowMobileMenu(!showMobileMenu)} className="btn-wrapper" >
-                            {/* <img src={Menu} alt="ícone menu" width={24} height={24} /> */}
+                            <img src={Menu} alt="ícone menu" width={24} height={24} />
                         </span>
                     }
                 </div>
