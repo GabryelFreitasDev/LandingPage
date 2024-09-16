@@ -22,8 +22,8 @@ function Home () {
                     <p className="desktop-only">
                         Olá
                     </p>
-                    <h1>Comida de mãe direto no seu apê, é só pedir que entregamos para você!</h1>
-                    <p>Já pensou em matar a saudade daquela comida caseira? O melhor de tudo, nossas receitas são 100% saudáveis, bora entrar no shape.
+                    <h1>Peças de performance para seu carro você encontra aqui!</h1>
+                    <p>Acelere seu carro com peças de confiança e alto desempenho
                     </p>
                     <div className="flex gap-1">
                         <span><Button text="Cadastre-se" /></span>
@@ -33,27 +33,48 @@ function Home () {
                     </div>
                 </div>
             </section>
-            <section id="solutions" className="container">
-                <h2>Peças de performance para seu projeto</h2>
-                <p>Inovação é com a gente! A <strong>TurboLag</strong> já conquistou diversos clientes, seja você mais um deles. Veja tudo que pode ganhar com nossos serviços.</p>
-                <div className="cards-container">
-                    <div className="card">
-                        <img src={TurboCharger} alt="TurboCharger" style={{scale: "1.3"}}/>
-                        <h3>Produto Vencedor</h3>
-                        <p>Ideia matadora, nosso time já ganhou diversos eventos de inovação com esse produto. Entre eles podemos citar o CityFarm da FAG e Startup Garage.</p>
-                    </div>
-                    <div className="card">
-                        <img src={FuelTech} alt="TurboCharger" style={{scale: "1.2"}}/>
-                        <h3>Produto Vencedor</h3>
-                        <p>Ideia matadora, nosso time já ganhou diversos eventos de inovação com esse produto. Entre eles podemos citar o CityFarm da FAG e Startup Garage.</p>
-                    </div>
-                    <div className="card">
-                        <img src={NanoPro} alt="TurboCharger" style={{scale: "1"}}/>
-                        <h3>Produto Vencedor</h3>
-                        <p>Ideia matadora, nosso time já ganhou diversos eventos de inovação com esse produto. Entre eles podemos citar o CityFarm da FAG e Startup Garage.</p>
+            <section className="solucoes">
+                <div className="container">
+                    <h2>Potência</h2>
+                    <h3>Garantida para você</h3>
+                    <p>
+                    Performance é com a gente! <span className="empresa-nome">TurboLag</span> já conquistou diversos clientes, seja você mais um deles, veja alguns dos nossos produtos.
+                    </p>
+
+                    <div className="produtos">
+                        <div className="produto">
+                            <div className="icone-produto">
+                            <img src={TurboCharger} alt="Produto Vencedor"/>
+                            </div>
+                            <h4>Turbina Garrett</h4>
+                            <p>
+                            Projetada para entregar aumento significativo de potência, ela utiliza tecnologia avançada para maximizar o fluxo de ar e a eficiência térmica, permitindo que o motor respire melhor e produza mais energia. Ideal para projetos de alta performance, desde preparações para rua até veículos de competição.
+                            </p>
+                        </div>
+
+                        <div className="produto">
+                            <div className="icone-produto">
+                            <img src={FuelTech} alt="Produto Vencedor"/>
+                            </div>
+                            <h4>FT 600</h4>
+                            <p>
+                            Permite o gerenciamento de vários parâmetros do motor, como injeção de combustível, ignição e controle de boost. Conta com uma tela touchscreen colorida e é altamente configurável, oferecendo funções como data logger, gerenciamento de mapa e ajustes rápidos, ideal para pilotos e preparadores que querem maximizar o desempenho.
+                            </p>
+                        </div>
+
+                        <div className="produto">
+                            <div className="icone-produto">
+                            <img src={NanoPro} alt="Produto Vencedor"/>
+                            </div>
+                            <h4>Nano Pro</h4>
+                            <p>
+                            Oferece a visualização precisa de injeção e ignição, além de suporte para controles adicionais como nitro e boosters. Ideal para preparadores que querem elevar o desempenho de veículos sem a necessidade de uma ECU completa de alta gama ou somada a uma.
+                            </p>
+                        </div>
                     </div>
                 </div>
-            </section>
+                </section>
+
         </>
     )
 }

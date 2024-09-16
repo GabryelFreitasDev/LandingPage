@@ -15,9 +15,9 @@
 :root{
     --bg-color:#FFF;
     --bg-header-color:#000;
-    --text-color:#252842;
+    --text-color:#000;
     --bg-text-color:#FFF;
-    --second-text-color:#737373;
+    --second-text-color:#000;
     --light-text-color:#fff;
     --light-gray: #f8f8f8;
     --primary-color:#ff2525;
@@ -77,7 +77,7 @@ h3 {
 
 a {
     text-decoration: none;
-    color: var(--second-text-color);
+    color: var(--light-text-color);
     font-weight: var(--fw-bold);
     font-size: var(--fs-sm);
 }

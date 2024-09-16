@@ -12,7 +12,7 @@ export default function Header() {
     
     return (
         <>
-            <header className="container py-sm header">
+            <header className="py-sm header">
             <nav className="flex items-center justify-between">
                 <img src={Logo} alt="Logo TurboLag" style={{scale: "2"}} width={220} height={80} />
                 <div className="desktop-only">
