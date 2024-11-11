@@ -6,17 +6,26 @@
     color: var(--second-text-color);
   }
 
+  header Button {
+    margin-right: 1.5rem;
+  }
+
   .ml-lg {
     margin-right: 2.875rem;
   }
   
+  .header {
+    background-color: var(--bg-header-color);
+    width: 100%;
+  }
+
   .mobile-menu {
     display: initial;
     z-index: 3;
   }
-  
+
   .mobile-menu-content {
-    position: absolute;
+    position: fixed;
     display: flex;
     top: 0;
     left: 0;
@@ -24,6 +33,7 @@
     width: 100vw;
     height: 100vh;
     background: var(--bg-header-color);
+    overflow: hidden; 
   }
   
   .mobile-menu-content ul {
